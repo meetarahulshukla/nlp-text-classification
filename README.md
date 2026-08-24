@@ -1,9 +1,17 @@
-
 # Natural Language Processing (NLP) Fundamentals: SMS Spam Classification
+
+![GitHub License](https://img.shields.io/github/license/meetarahulshukla/nlp-text-classification)
+![GitHub Repo Size](https://img.shields.io/github/languages/code-size/meetarahulshukla/nlp-text-classification)
+![GitHub last commit](https://img.shields.io/github/last-commit/meetarahulshukla/nlp-text-classification)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/scikit-learn)
+![Jupyter Notebook](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 A clean, step-by-step natural language processing pipeline to benchmark text vectorization strategies using the classic SMS Spam Collection dataset.
 
 ## 🎯 Project Overview
+
 This project serves as a foundational baseline for processing text data into numerical features. It extracts insights from short text messages to classify them as **Ham (legitimate)** or **Spam** by directly comparing two core vectorization techniques:
 1. **CountVectorizer (Bag of Words)**: Tracks absolute word frequencies.
 2. **TF-IDF Vectorizer**: Balances term frequency against inverse document frequency to down-weight universally common terms.
